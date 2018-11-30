@@ -69,6 +69,11 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="Mlc-Ct-ysY" secondAttribute="trailing" constant="-15" id="wBP-fC-jru"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bucketItemSignature" destination="Mlc-Ct-ysY" id="VNr-FS-QHr"/>
+                                    <outlet property="bucketItemSymbol" destination="7IW-mT-VgD" id="RGb-Rb-BOn"/>
+                                    <outlet property="bucketItemText" destination="jn6-fo-TVd" id="WyL-ts-F8O"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
