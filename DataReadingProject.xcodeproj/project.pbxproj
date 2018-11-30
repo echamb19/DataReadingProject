@@ -14,7 +14,6 @@
 		DB26689321AC7D1300D7968B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB26689221AC7D1300D7968B /* AppDelegate.swift */; };
 		DB26689821AC7D1300D7968B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB26689621AC7D1300D7968B /* Main.storyboard */; };
 		DB26689A21AC7D1800D7968B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB26689921AC7D1800D7968B /* Assets.xcassets */; };
-		DB26689D21AC7D1800D7968B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB26689B21AC7D1800D7968B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		DB26689221AC7D1300D7968B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB26689721AC7D1300D7968B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB26689921AC7D1800D7968B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB26689C21AC7D1800D7968B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB26689E21AC7D1800D7968B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				DB26689621AC7D1300D7968B /* Main.storyboard */,
-				DB26689B21AC7D1800D7968B /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,7 +160,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB26689D21AC7D1800D7968B /* LaunchScreen.storyboard in Resources */,
 				DB0CDE7221B1BDB100FDABB7 /* bucket18.csv in Resources */,
 				DB26689A21AC7D1800D7968B /* Assets.xcassets in Resources */,
 				DB26689821AC7D1300D7968B /* Main.storyboard in Resources */,
@@ -193,14 +189,6 @@
 				DB26689721AC7D1300D7968B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DB26689B21AC7D1800D7968B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB26689C21AC7D1800D7968B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
