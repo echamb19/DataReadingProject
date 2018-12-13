@@ -23,18 +23,6 @@ public class BucketItemCell: UITableViewCell
         }
     }
     
-    private func randomEmoji()->String
-    {
-        let emojiStart = 0x1F601
-        let emojiEnd = 0x1F64F
-        
-        let emojiRange = 79
-        
-        let ascii = emojiStart + Int(arc4random_uniform(UInt32(emojiRange)))
-        let emoji = UnicodeScalar(ascii)?.description
-        return emoji!
-    }
-    
     private func updateCellView() -> Void
     {
         if (currentBucketItem != nil)
@@ -49,6 +37,18 @@ public class BucketItemCell: UITableViewCell
         }
         
         bucketItemSymbol.text = randomEmoji()
+    }
+    
+    private func randomEmoji()->String
+    {
+        let emojiStart = 0x1F601
+        let emojiEnd = 0x1F64F
+        
+        let emojiRange = 79
+        
+        let ascii = emojiStart + Int(arc4random_uniform(UInt32(emojiRange)))
+        let emoji = UnicodeScalar(ascii)?.description
+        return emoji!
     }
 
     public override func awakeFromNib()
